@@ -79,6 +79,11 @@ namespace Herencia1
                 Fecha = DateTime.Now,
                 NombreEmpresa = "Motursa",
                 NumeroFactura = 1,
+            };
+
+            
+            var cliente1 = new Cliente
+            {
                 //Cliente
                 CodigoCliente = 325,
                 NombreCliente = "PERFORSA",
@@ -87,15 +92,9 @@ namespace Herencia1
                 //Producto
                 Codigo = 123,
                 Descripcion = "Tubos HG",
-                
-          
-              
-                
-          
 
 
-
-            };
+             };
 
 
 
@@ -117,9 +116,17 @@ namespace Herencia1
 
             //dataGridView1.DataSource = listaclientes; 
 
+                      
+
             MisHabilidades.Add(MiHabilidad1);
             dataGridView2.DataSource = null;
             dataGridView2.DataSource = MisHabilidades;
+
+            listaclientes.Add(cliente1);
+            dataGridView3.DataSource = null;
+            dataGridView3.DataSource = listaclientes;
+
+
 
 
 
