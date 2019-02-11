@@ -79,6 +79,7 @@ namespace Herencia1
                 Fecha = DateTime.Now,
                 NombreEmpresa = "Motursa",
                 NumeroFactura = 1,
+             
             };
 
             
@@ -94,7 +95,7 @@ namespace Herencia1
                 Descripcion = "Tubos HG",
 
 
-             };
+            };
 
 
 
@@ -118,7 +119,7 @@ namespace Herencia1
 
                       
 
-            MisHabilidades.Add(MiHabilidad1);
+            //MisHabilidades.Add(MiHabilidad1);
             dataGridView2.DataSource = null;
             dataGridView2.DataSource = MisHabilidades;
 

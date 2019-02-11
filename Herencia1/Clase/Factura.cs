@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Herencia1
 {
-    public class Factura : Cliente
+    public class Factura 
     {
         public string NIT { get; set; }
 
